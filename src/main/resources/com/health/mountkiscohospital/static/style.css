@@ -1,0 +1,22 @@
+#home-page-vbox{
+    -fx-background-image: url("image/background-image.jpg");
+    -fx-background-size: cover;
+    -fx-spacing: 2em;
+    -fx-alignment: center;
+}
+#home-page-text{
+    -fx-font-weight: bolder;
+    -fx-text-fill: white;
+    -fx-font-size: 3em;
+}
+#button-register{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#button-log-in{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+.button-index-common{
+    -fx-label-padding: 1em;
+}

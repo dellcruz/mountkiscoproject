@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox id="home-page-vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="656.0" stylesheets="@static/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="home-page-text" text="Welcome to Mount kisco Hospital" />
+      <Button id="button-register" mnemonicParsing="false" styleClass="button-index-common" text="Register" />
+      <Button id="button-log-in" mnemonicParsing="false" styleClass="button-index-common" text="Log In" />
+   </children>
+</VBox>
