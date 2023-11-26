@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Click on the specialist you want to see and choose an appointment time" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ophtomologist" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Physician" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Neurologist" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Psychologue" />
+      <VBox prefHeight="200.0" prefWidth="100.0" />
+   </children>
+</VBox>

@@ -6,4 +6,8 @@ module com.health.mountkiscohospital {
 
     opens com.health.mountkiscohospital to javafx.fxml;
     exports com.health.mountkiscohospital;
+    opens com.health.mountkiscohospital.controller to javafx.fxml;
+    exports com.health.mountkiscohospital.controller;
+    opens com.health.mountkiscohospital.helper to javafx.fxml;
+    exports com.health.mountkiscohospital.helper;
 }

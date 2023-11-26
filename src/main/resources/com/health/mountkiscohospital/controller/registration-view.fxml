@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.health.mountkiscohospital.controller.AddressController">
    <children>
       <HBox prefHeight="40.0" prefWidth="614.0">
          <children>
@@ -46,7 +45,7 @@
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Label text="Label" />
+            <Label text="Labe" />
             <Label text="Email" GridPane.rowIndex="5" />
             <Label text="Gender" GridPane.rowIndex="8" />
             <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
@@ -56,7 +55,7 @@
                   <RadioButton mnemonicParsing="false" text="Female" />
                </children>
             </HBox>
-            <Button mnemonicParsing="false" text="Continue" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button fx:id="continueButton" mnemonicParsing="false" onMouseClicked="#gotoAddressRegistrationPage" text="Continue" GridPane.columnIndex="1" GridPane.rowIndex="9" />
             <Label text="age" GridPane.halignment="LEFT" GridPane.rowIndex="6">
                <graphic>
                   <TextField />
